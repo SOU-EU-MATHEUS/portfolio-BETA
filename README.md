@@ -10,4 +10,4 @@ Projeto realizado através de ídeias no Figma
 | :fire: Desafio     | HTML e CSS: praticando HTML/CSS
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](blob:https://vercel.com/91c384e1-e794-435f-b5b5-7593e46e393d#vitrinedev)
+![](https://github.com/SOU-EU-MATHEUS/portfolio-BETA/blob/main/img/capaportfolio.png#vitrinedev)
