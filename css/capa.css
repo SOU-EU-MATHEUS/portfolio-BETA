@@ -1,0 +1,86 @@
+
+/* CAPA */
+
+
+.capa {
+    padding: 10em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-title {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.profile-pic {
+    width: 40%;
+}
+
+.foto__perfil {
+    width: 60%;
+    border-radius: 40%;
+}
+
+.capa__nome {
+    color: var(--amarelo-fonte);
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.capa__profissao {
+    color: var(--branco-creme);
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0.4em;
+}
+
+.capa__texto {
+    color: var(--branco-creme);
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 3em;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .capa {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 12em;
+        flex-direction: column-reverse;
+    }
+    .capa__nome {
+        font-size: 35px;
+    }
+
+    .capa__profissao {
+        font-size: 30px;
+    }
+
+    .capa__texto {
+        width: 100%;
+    }
+
+    .profile-title {
+        width: 90%;
+    }
+
+    .profile-pic {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .foto__perfil {
+        width: 40%;
+    }
+}

@@ -1,0 +1,65 @@
+/* SOBRE MIM */
+
+.sobre__mim {
+    margin: 0 5em 5em 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sobre__mim__escrita {
+    text-align: center;
+    background-color: var(--cinza-borda);
+    margin-left: 3em;
+    border-radius: 50px;
+}
+
+.imagem__capa__sobre-mim {
+    width: 35%;
+    border-radius: 50px;
+}
+
+.sobre__mim-titulo {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--amarelo-fonte);
+    
+}
+
+.sobre__mim-texto {
+    color: var(--branco-creme);
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin: 2em 3em;
+
+}
+
+@media (max-width: 768px) {
+    .sobre__mim {
+        display: flex;
+        width: 100%;
+        margin: 0 0;
+    }
+
+    .sobre__mim__escrita {
+        margin: 0 1em;
+    }
+
+    .sobre__mim-texto {
+        margin: 1em 1em;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+    .imagem__capa__sobre-mim {
+        display: none;
+    }
+}

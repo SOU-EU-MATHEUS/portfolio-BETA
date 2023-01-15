@@ -1,0 +1,32 @@
+
+.lista-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10em;
+}
+
+.lista-menu__item {
+    padding: 2em 3em;
+}
+
+.lista-menu__link {
+    color: var(--amarelo-fonte);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.lista-menu__link:hover {
+    color: var(--branco-creme);
+    transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+
+.lista-menu {
+    display: none;
+}
+
+
+}

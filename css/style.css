@@ -1,0 +1,31 @@
+@import url(capa.css);
+@import url(cabecalho.css);
+@import url(redessociais.css);
+@import url(skills.css);
+@import url(sobremim.css);
+@import url(projetos.css);
+
+
+:root {
+  --branco-principa: #FFFFFF;
+  --azul-fonte: #22D4FD;
+  --cor-fundo: #1B1A17;
+  --fonte: 'Inconsolata';
+  --fundo-cabecalho: #2D322A;
+  --amarelo-fonte: #FF8303;
+  --branco-creme: #F0E3CA;
+  --cinza-borda: rgba(255, 255, 255, 0.246);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--fonte);
+  font-size: 20px;
+  font-weight: 400;
+  color: #F0E3CA;
+  background-image: url(/img/background3.jpg);
+  background-size: auto;
+  background-repeat: repeat;
+}
