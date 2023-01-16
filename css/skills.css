@@ -11,8 +11,8 @@
 }
 
 .skills {
-    margin: 0 15em;
     display: flex;
+    justify-content: center;
 }
 
 .skills__icone {
@@ -35,29 +35,45 @@
 
 @media (max-width: 768px) {
     .skills__texto {
-        margin: 0;
+        margin: 0 2em;
         padding: 0;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: initial;
+        justify-content: initial;
         flex-direction: row;
         flex-wrap: wrap;
     }
-
+    .skills__icone {
+        display: flex;
+        padding: 0.5em;
+        margin: 0.5em 0;
+        flex-direction: row;
+        align-items: center;
+        font-size: 20px;
+        color: var(--amarelo-fonte);
+        font-weight: 600;
+        background-color: var(--cinza-borda);
+        border-radius: 20px;
+        flex-wrap: nowrap;
+    }
     .skills {
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         margin: 0em 2em;
     }
 
     .skills__h1 {
         font-size: 25px;
-        padding: 1em;
+        padding: 1em 5em;
+        justify-content: center;
+        align-items: center;
     }
 
     .skills__img {
-        padding: 1em 3em;
+        padding: 0;
+        margin: 0em 2em;
+        width: 50px;
+        align-items: initial;
     }
 
 }
