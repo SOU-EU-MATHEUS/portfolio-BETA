@@ -1,5 +1,8 @@
-/* SOBRE MIM */
-
+#sobre-mim {
+    padding-top: 5em;
+    display: flex;
+    align-items: center;
+}
 .sobre__mim {
     margin: 0 5em 5em 5em;
     display: flex;
@@ -52,12 +55,6 @@
         margin: 1em 1em;
         font-size: 20px;
     }
-
-
-
-
-
-
 
     .imagem__capa__sobre-mim {
         display: none;

@@ -1,9 +1,9 @@
-@import url(capa.css);
-@import url(cabecalho.css);
+@import url(navegacao-inicio.css);
 @import url(redessociais.css);
-@import url(skills.css);
+@import url(habilidades.css);
 @import url(sobremim.css);
 @import url(projetos.css);
+@import url(carrossel.css);
 
 
 :root {
@@ -14,7 +14,7 @@
   --fundo-cabecalho: #2D322A;
   --amarelo-fonte: #FF8303;
   --branco-creme: #F0E3CA;
-  --cinza-borda: rgba(255, 255, 255, 0.246);
+  --cinza-borda: rgba(82, 80, 80, 0.299);
 }
 
 html {
